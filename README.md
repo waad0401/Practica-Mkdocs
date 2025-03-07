@@ -64,6 +64,7 @@ jobs:
 Comproaciones de los workflows
 ![](ImagenMarkDown/workflowhaciendose.png)  
 ![](ImagenMarkDown/workflowecho.png)  
+![](ImagenMarkDown/pagesbuild.png) 
 
 Pagina principal
 ![](ImagenMarkDown/PaginaPrincipal.png)  
