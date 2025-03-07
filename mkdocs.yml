@@ -1,0 +1,39 @@
+site_name: "Repositorio de Prácticas"
+site_description: "Documentación de mis prácticas y proyectos."
+site_url: "https://waad0401.github.io/Practica-Mkdocs"
+author: "Tu Nombre"
+
+repo_name: "waad0401/Practica-Mkdocs"
+repo_url: "https://github.com/waad0401/Practica-Mkdocs"
+
+nav:
+  - Inicio: index.md
+  - Prácticas:
+      - "Configuración de WordPress en Docker": Docker-WP/README.md
+      - "Activación de HTTPS con Docker": Docker-HTTPS/README.md
+  - Contacto: contacto.md
+
+theme:
+  name: "material"
+  palette:
+    - scheme: "default"
+      primary: "blue"
+      accent: "light blue"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - toc.integrate
+
+extra:
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/waad0401"
+    - icon: "fontawesome/brands/linkedin"
+      link: "https://www.linkedin.com/in/walid-aadomi-el-orche/"
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
